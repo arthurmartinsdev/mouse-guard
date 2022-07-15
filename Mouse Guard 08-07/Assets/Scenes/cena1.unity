@@ -265,11 +265,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62f2756125a0a64ead72857d17111df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _talker: {fileID: 11400000, guid: e8587424266a97349a22ea6127ffd726, type: 2}
-  messages:
-  - papinho 1
-  - papinho 2
-  - papinho 3
+  _dialogos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &778531100
 GameObject:
   m_ObjectHideFlags: 0

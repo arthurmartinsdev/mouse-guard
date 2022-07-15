@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dialogo : MonoBehaviour
+[System.Serializeble]
+
+public class Dialogue
 {
     public Talker _talker;
 
     [UnityEngine.TextArea]
     public string[] messages;
 }
-    
