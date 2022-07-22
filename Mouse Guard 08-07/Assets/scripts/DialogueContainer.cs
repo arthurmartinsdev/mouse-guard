@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class DialogueContainer : MonoBehaviour
 {
-    public Dialogue[] _dialogos;
+    public Dialogue[] _dialogues;
 }

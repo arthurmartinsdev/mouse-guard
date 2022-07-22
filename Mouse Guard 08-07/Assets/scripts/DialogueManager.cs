@@ -26,7 +26,7 @@ public class DialogueManager : MonoBehaviour
     {
         currentDialogue = container;
         StartCoroutine(StartDialogue());
-        UIState?.Invoke(true;)
+        UIState?.Invoke(true);
     }
 
     private IEnumerator StartDialogue()
@@ -37,7 +37,7 @@ public class DialogueManager : MonoBehaviour
             NewTalker?.Invoke(currentDialogue._dialogues[i]);
             StartCoroutine(ShowDialogue(currentDialogue._dialogues[i].messages));
 
-            yield retur new WaitUntil(() => endCurrentTalk);
+            yield return new WaitUntil(() => endCurrentTalk);
         }
 
         UIState?.Invoke(false); 

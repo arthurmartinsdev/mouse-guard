@@ -303,17 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62f2756125a0a64ead72857d17111df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogos:
-  - _talker: {fileID: 11400000, guid: e8587424266a97349a22ea6127ffd726, type: 2}
-    messages:
-    - 'ola '
-    - "esse \xE9 o primeiro teste"
-  - _talker: {fileID: 11400000, guid: bb24d9a5b8a44f94db1d9b49dc621c93, type: 2}
-    messages:
-    - resposta do primeiro teste
-  - _talker: {fileID: 11400000, guid: e8587424266a97349a22ea6127ffd726, type: 2}
-    messages:
-    - fim do teste
+  _dialogues: []
 --- !u!1 &647928603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,10 +1152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde1b991664506a4ebf2844e9560f9c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UIContainer: {fileID: 2115841526}
-  _image: {fileID: 790582436}
-  _talkerName: {fileID: 1650987975}
-  _dialogue: {fileID: 1766432113}
 --- !u!1 &2115841526
 GameObject:
   m_ObjectHideFlags: 0
